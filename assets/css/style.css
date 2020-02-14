@@ -1,22 +1,23 @@
-body{
+body {
     margin: 0px;
     padding: 0px;
     background: white;
     color: rgb(26, 24, 24);
-    font-family: 'Poppins', sans-serif; 
+    font-family: 'Poppins', sans-serif;
 }
+
 
 /*****************HEADER**********************/
 
-
-header{
+header {
     width: 100%;
     margin: 50px 0px;
     padding: 0px;
+    font-size: 0;
 }
 
-.imagenPerfil{
-    width:40%;
+.imagenPerfil {
+    width: 40%;
     height: 100%;
     margin: 0px;
     padding: 0px;
@@ -25,7 +26,7 @@ header{
     overflow: hidden;
 }
 
-.imagenPerfil img{
+.imagenPerfil img {
     width: 50%;
     margin: 0% 25%;
     padding: 0px;
@@ -33,8 +34,8 @@ header{
     position: relative;
 }
 
-.nombreApellidos{
-    width:60%;
+.nombreApellidos {
+    width: 60%;
     margin: 0px;
     padding: 0px;
     display: inline-block;
@@ -42,39 +43,43 @@ header{
     vertical-align: top;
 }
 
-.lineGreen2{
+.lineGreen2 {
     width: 100%;
     height: 3px;
     margin-top: -4px;
     background: rgb(91, 136, 189);
-    display:none;
+    display: none;
 }
 
-.nombreApellidos h2{
+.nombreApellidos h2 {
     font-size: 60px;
     margin: 0px;
     font-weight: lighter;
     margin-top: 60px;
 }
 
-.nombreApellidos h1{
+.nombreApellidos h1 {
     font-size: 80px;
     margin: 0px;
     font-weight: bolder;
     margin-bottom: 40px;
 }
 
-.nombreApellidos h3{
+.nombreApellidos h3 {
     font-size: 30px;
     margin: 0px;
     font-weight: lighter;
-    color:rgb(91, 136, 189);
-    
+    color: rgb(91, 136, 189);
 }
+
 
 /*****************ARTICLE**********************/
 
-.colIzq{
+article {
+    font-size: 0;
+}
+
+.colIzq {
     width: 34%;
     height: 100%;
     display: inline-block;
@@ -82,11 +87,11 @@ header{
     vertical-align: top;
 }
 
-.colIzq section{
+.colIzq section {
     margin-bottom: 60px;
 }
 
-.colDer{
+.colDer {
     width: 54%;
     height: 100%;
     display: inline-block;
@@ -94,96 +99,98 @@ header{
     vertical-align: top;
 }
 
+
 /*****************CONTACTO**********************/
 
-.contacto p{
+.contacto p {
     margin: 30px 0px;
     margin-left: 25px;
     position: relative;
 }
 
-.contacto p:before{
+.contacto p:before {
     font-family: 'icomoon';
     content: "\e9ff";
     position: relative;
     font-size: 30px;
     bottom: 0px;
-    top:7px;
-    left:-25px;
-    color:rgb(91, 136, 189);
+    top: 7px;
+    left: -25px;
+    color: rgb(91, 136, 189);
 }
 
-.contacto a{
+.contacto a {
     text-decoration: none;
     color: rgb(26, 24, 24);
     font-size: 20px;
 }
 
+
 /*******************EXPERIENCIA*********************/
-section h4{
+
+section h4 {
     font-size: 30px;
     margin-top: 35px;
     margin-bottom: 0px;
 }
 
-.lineGreen{
+.lineGreen {
     width: 100%;
     height: 3px;
     margin-top: 15px;
     background: rgb(91, 136, 189);
 }
 
-
-.trabajo{
+.trabajo {
     width: 100%;
     margin: 35px 0px;
 }
 
-.trabajoFecha{
+.trabajoFecha {
     width: 30%;
     display: inline-block;
     vertical-align: top;
     height: 100%;
 }
 
-.trabajoFecha p{
+.trabajoFecha p {
     font-size: 20px;
     margin: 5px 0px;
     color: rgb(122, 120, 120);
     font-family: 'Quicksand', sans-serif;
 }
 
-.trabajoInformacion{
+.trabajoInformacion {
     width: 70%;
     display: inline-block;
     vertical-align: top;
     height: 100%;
 }
 
-.trabajoInformacion h5{
+.trabajoInformacion h5 {
     font-size: 30px;
     margin: 0px;
 }
 
-.trabajoInformacion h6{
+.trabajoInformacion h6 {
     font-size: 30px;
     margin: 0px;
     font-family: 'Source Sans Pro', sans-serif;
     color: rgb(122, 120, 120);
 }
 
-h5.subtitle{
+h5.subtitle {
     font-size: 20px;
     margin: 0px;
 }
 
-section p{
+section p {
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
     color: rgb(26, 24, 24);
 }
 
-.trabajoFechaUnaLinea{
+.trabajoFechaUnaLinea {
     font-size: 20px;
     margin: 5px 0px;
     color: rgb(122, 120, 120);
@@ -191,83 +198,87 @@ section p{
     display: none;
 }
 
+
 /*******************TECNOLOGIAS*********************/
-.nombreTecnologia p{
-    width:30%;
+
+.nombreTecnologia p {
+    width: 30%;
     display: inline-block;
     margin: 15px 0px;
 }
 
-.rectanguloVerde{
-    width:15%;
+.rectanguloVerde {
+    width: 15%;
     margin: auto 1%;
     height: 15px;
     background: rgb(91, 136, 189);
     display: inline-block;
 }
 
-.rectanguloGris{
-    width:15%;
+.rectanguloGris {
+    width: 15%;
     margin: auto 1%;
     height: 15px;
     background: rgb(131, 134, 131);
     display: inline-block;
 }
 
+
 /*******************EDUCACION*********************/
 
-#check{
+#check {
     margin-left: 25px;
 }
 
-#check:before{
+#check:before {
     font-family: 'icomoon';
     content: "\ea10";
     position: relative;
     font-size: 30px;
     bottom: 0px;
-    top:7px;
-    left:-25px;
+    top: 7px;
+    left: -25px;
     color: rgb(91, 136, 189);
 }
 
 
 /***************icomoon*********************/
 
-#correo:before{
+#correo:before {
     content: "\e945";
 }
 
-#telefono:before{
+#telefono:before {
     content: "\e942";
 }
 
-#posicion:before{
+#posicion:before {
     content: "\e947";
 }
 
-#skype:before{
+#skype:before {
     content: "\eac5";
 }
 
-#linkedin:before{
+#linkedin:before {
     content: "\eac9";
 }
 
+#github:before {
+    content: "\eab0";
+}
+
+
 /*******************SMARTPHONE Y TABLETS*********************/
 
-@media(max-width: 1000px){
-
+@media(max-width: 1000px) {
     /**********HEADER************/
-
     header {
         margin: 0px 0px;
     }
-
     .imagenPerfil {
         width: 30%;
     }
-
     .imagenPerfil img {
         width: 100%;
         margin: 0px;
@@ -275,81 +286,60 @@ section p{
         border-radius: 0%;
         transform: scale(1.3) translateY(20px);
     }
-
     .nombreApellidos {
         width: 65%;
         margin: 5% 0px;
         margin-left: 5%;
         /*background: rgba(255, 255, 255,0.8);*/
     }
-
     .nombreApellidos h2 {
         font-size: 7vw;
         margin-top: 0px;
     }
-
     .nombreApellidos h1 {
         font-size: 8vw;
         margin-bottom: 20px;
     }
-
     .nombreApellidos h3 {
         font-size: 5.5vw;
     }
-
-    .lineGreen2{
-        display:block;
+    .lineGreen2 {
+        display: block;
     }
-
     /**********COLUMNAS************/
-
-    .colIzq, .colDer{
+    .colIzq,
+    .colDer {
         width: 80%;
         display: inline-block;
         margin-left: 10%;
         margin-right: 10%;
     }
-
-    .colIzq section{
+    .colIzq section {
         margin-bottom: 0px;
     }
-        
     /**********CONTACTO************/
-
-
-    .contacto p{
+    .contacto p {
         width: 100%;
     }
-
-    .contacto a{
+    .contacto a {
         font-size: 15px;
     }
-
     /**********TRABAJOS************/
-
-
-    .trabajoFecha{
+    .trabajoFecha {
         display: none;
     }
-
-    .trabajoInformacion{
+    .trabajoInformacion {
         width: 100%;
     }
-    
-    .trabajoFechaUnaLinea{
+    .trabajoFechaUnaLinea {
         display: block;
     }
-
     /**********TECNOLOGIAS************/
-
-
-    .rectanguloVerde, .rectanguloGris{
-        width:13%;
+    .rectanguloVerde,
+    .rectanguloGris {
+        width: 13%;
     }
-
     .nombreTecnologia p {
         width: 40%;
     }
-    
-    
 }
